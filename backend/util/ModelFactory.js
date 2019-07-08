@@ -1,6 +1,5 @@
 module.exports = {
     processError: function (error, serverError) {
-        console.log({error});
         if(serverError !== undefined){
             return { error: 'Currently unable to complete request'}
         }else{

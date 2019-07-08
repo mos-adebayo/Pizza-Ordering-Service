@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result grid component Result lists snapshot 1`] = `
+Array [
+  <table
+    className="table table-striped table-bordered table-hover"
+  >
+    <thead>
+      <tr>
+        <th>
+          #
+        </th>
+        <th>
+          Customer
+        </th>
+        <th>
+          Pizza Type 
+        </th>
+        <th>
+          Pizza Size
+        </th>
+        <th>
+          Quantity
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+          Address
+        </th>
+        <th>
+          Date Ordered
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>,
+  <ul
+    className="pagination"
+  >
+    <li
+      className="page-item active"
+    >
+      <span
+        className="page-link"
+        disabled={false}
+        onClick={[Function]}
+      >
+        1
+        <span
+          className="sr-only"
+        >
+          (current)
+        </span>
+      </span>
+    </li>
+    <li
+      className="page-item"
+    >
+      <a
+        className="page-link"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        2
+      </a>
+    </li>
+  </ul>,
+]
+`;

@@ -1,15 +1,8 @@
 # Pizza Ordering Service
 
-This is a pizza ordering services with the following functionality -
-- Order a pizza
-- Update an order
-- Remove an order
-- Retrieve order
-- List orders
-
 **NOTE:** You need to have postgres installed for the database
 
-## Usage
+## Documentation
 To start the backend project; follow these steps:
 
 Run `cd backend`
@@ -303,7 +296,3 @@ The frontend is accessible via `http://localhost:3000` by default
 # Docker
 - sudo docker-compose build
 - sudo docker-compose up
-- docker exec -it my_postgres psql -U postgres
-- docker exec -it doc_postgres psql -U postgres -c "create database pizzaOrder"
-- docker exec -it doc_postgres psql -U postgres -c "GRANT ALL PRIVILEGES ON DATABASE pizzaOrder TO postgres;"
-

@@ -1,11 +1,11 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-var cors = require('cors');
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
+const cors = require('cors');
 
-var app = express();
+const app = express();
 app.use(cors());
 
 // view engine setup
@@ -26,9 +26,6 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
-// CORS
-// app.use(cors());
-// app.options('*', cors());
 
 // error handler
 app.use(function(err, req, res, next) {
